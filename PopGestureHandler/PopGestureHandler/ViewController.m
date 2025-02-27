@@ -7,7 +7,7 @@
 
 #import "ViewController.h"
 #import "PresentViewController.h"
-#import "PopGestureHandler.h"
+#import "PopGestureHandler/PopGestureHandler.h"
 
 @interface ViewController ()
 

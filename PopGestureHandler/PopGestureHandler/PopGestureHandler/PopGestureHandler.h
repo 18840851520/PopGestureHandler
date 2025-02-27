@@ -1,6 +1,6 @@
 //
 //  PopGestureHandler.h
-//  Ugram
+// /Users/web/Documents/GitHub/PopGestureHandler/PopGestureHandler.podspec Ugram
 //
 //  Created by zjh on 2025/2/25.
 //

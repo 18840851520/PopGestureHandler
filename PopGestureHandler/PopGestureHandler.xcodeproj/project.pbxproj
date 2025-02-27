@@ -6,27 +6,8 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXContainerItemProxy section */
-		92E87A3A2D6FF5EC008564A6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 92E87A162D6FF5EA008564A6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 92E87A1D2D6FF5EA008564A6;
-			remoteInfo = PopGestureHandler;
-		};
-		92E87A442D6FF5EC008564A6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 92E87A162D6FF5EA008564A6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 92E87A1D2D6FF5EA008564A6;
-			remoteInfo = PopGestureHandler;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		92E87A1E2D6FF5EA008564A6 /* PopGestureHandler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopGestureHandler.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		92E87A392D6FF5EC008564A6 /* PopGestureHandlerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopGestureHandlerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		92E87A432D6FF5EC008564A6 /* PopGestureHandlerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopGestureHandlerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -68,20 +49,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		92E87A362D6FF5EC008564A6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		92E87A402D6FF5EC008564A6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -99,8 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				92E87A1E2D6FF5EA008564A6 /* PopGestureHandler.app */,
-				92E87A392D6FF5EC008564A6 /* PopGestureHandlerTests.xctest */,
-				92E87A432D6FF5EC008564A6 /* PopGestureHandlerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -130,52 +95,6 @@
 			productReference = 92E87A1E2D6FF5EA008564A6 /* PopGestureHandler.app */;
 			productType = "com.apple.product-type.application";
 		};
-		92E87A382D6FF5EC008564A6 /* PopGestureHandlerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 92E87A512D6FF5EC008564A6 /* Build configuration list for PBXNativeTarget "PopGestureHandlerTests" */;
-			buildPhases = (
-				92E87A352D6FF5EC008564A6 /* Sources */,
-				92E87A362D6FF5EC008564A6 /* Frameworks */,
-				92E87A372D6FF5EC008564A6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				92E87A3B2D6FF5EC008564A6 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				92E87A3C2D6FF5EC008564A6 /* PopGestureHandlerTests */,
-			);
-			name = PopGestureHandlerTests;
-			packageProductDependencies = (
-			);
-			productName = PopGestureHandlerTests;
-			productReference = 92E87A392D6FF5EC008564A6 /* PopGestureHandlerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		92E87A422D6FF5EC008564A6 /* PopGestureHandlerUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 92E87A542D6FF5EC008564A6 /* Build configuration list for PBXNativeTarget "PopGestureHandlerUITests" */;
-			buildPhases = (
-				92E87A3F2D6FF5EC008564A6 /* Sources */,
-				92E87A402D6FF5EC008564A6 /* Frameworks */,
-				92E87A412D6FF5EC008564A6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				92E87A452D6FF5EC008564A6 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				92E87A462D6FF5EC008564A6 /* PopGestureHandlerUITests */,
-			);
-			name = PopGestureHandlerUITests;
-			packageProductDependencies = (
-			);
-			productName = PopGestureHandlerUITests;
-			productReference = 92E87A432D6FF5EC008564A6 /* PopGestureHandlerUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -187,14 +106,6 @@
 				TargetAttributes = {
 					92E87A1D2D6FF5EA008564A6 = {
 						CreatedOnToolsVersion = 16.2;
-					};
-					92E87A382D6FF5EC008564A6 = {
-						CreatedOnToolsVersion = 16.2;
-						TestTargetID = 92E87A1D2D6FF5EA008564A6;
-					};
-					92E87A422D6FF5EC008564A6 = {
-						CreatedOnToolsVersion = 16.2;
-						TestTargetID = 92E87A1D2D6FF5EA008564A6;
 					};
 				};
 			};
@@ -213,28 +124,12 @@
 			projectRoot = "";
 			targets = (
 				92E87A1D2D6FF5EA008564A6 /* PopGestureHandler */,
-				92E87A382D6FF5EC008564A6 /* PopGestureHandlerTests */,
-				92E87A422D6FF5EC008564A6 /* PopGestureHandlerUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		92E87A1C2D6FF5EA008564A6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		92E87A372D6FF5EC008564A6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		92E87A412D6FF5EC008564A6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -251,34 +146,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		92E87A352D6FF5EC008564A6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		92E87A3F2D6FF5EC008564A6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		92E87A3B2D6FF5EC008564A6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 92E87A1D2D6FF5EA008564A6 /* PopGestureHandler */;
-			targetProxy = 92E87A3A2D6FF5EC008564A6 /* PBXContainerItemProxy */;
-		};
-		92E87A452D6FF5EC008564A6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 92E87A1D2D6FF5EA008564A6 /* PopGestureHandler */;
-			targetProxy = 92E87A442D6FF5EC008564A6 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		92E87A4D2D6FF5EC008564A6 /* Debug */ = {
@@ -295,7 +163,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -322,7 +190,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -387,7 +255,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -442,76 +310,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		92E87A522D6FF5EC008564A6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.zjh.hh.PopGestureHandlerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PopGestureHandler.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PopGestureHandler";
-			};
-			name = Debug;
-		};
-		92E87A532D6FF5EC008564A6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.zjh.hh.PopGestureHandlerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PopGestureHandler.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PopGestureHandler";
-			};
-			name = Release;
-		};
-		92E87A552D6FF5EC008564A6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.zjh.hh.PopGestureHandlerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = PopGestureHandler;
-			};
-			name = Debug;
-		};
-		92E87A562D6FF5EC008564A6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.zjh.hh.PopGestureHandlerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = PopGestureHandler;
 			};
 			name = Release;
 		};
@@ -532,24 +336,6 @@
 			buildConfigurations = (
 				92E87A4D2D6FF5EC008564A6 /* Debug */,
 				92E87A4E2D6FF5EC008564A6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		92E87A512D6FF5EC008564A6 /* Build configuration list for PBXNativeTarget "PopGestureHandlerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				92E87A522D6FF5EC008564A6 /* Debug */,
-				92E87A532D6FF5EC008564A6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		92E87A542D6FF5EC008564A6 /* Build configuration list for PBXNativeTarget "PopGestureHandlerUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				92E87A552D6FF5EC008564A6 /* Debug */,
-				92E87A562D6FF5EC008564A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
