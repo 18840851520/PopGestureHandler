@@ -21,6 +21,9 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    
+}
+- (IBAction)presentAc:(id)sender {
     __block PresentViewController *presentVC = [[PresentViewController alloc] init];
     [self presentViewController:presentVC animated:true completion:nil];
     
