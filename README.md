@@ -6,7 +6,7 @@
 
 轻量级 iOS 手势控制器，支持多方向交互式关闭动画，完美兼容滚动视图冲突处理。✨
 
-<img src="https://via.placeholder.com/300x600.gif?text=Demo+Animation" width="250" alt="手势演示动图"/> 
+<img src="https://github.com/18840851520/PopGestureHandler/blob/main/PopGestureHandler/GIF/_SimulatorScreenRecordingiPhone1420250227at10._1.gif" width="250" alt="手势演示动图"/> 
 *（建议替换为实际动图演示[1](@ref)）*
 
 ## 🌟 核心特性
