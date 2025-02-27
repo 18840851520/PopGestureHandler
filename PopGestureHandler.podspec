@@ -16,16 +16,15 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "PopGestureHandler"
-  spec.version      = "1.0"
-  spec.summary      = "A short description of PopGestureHandler."
+  spec.version      = "1.0.0"
+  spec.summary      = "iOS 手势控制器，支持多方向交互式关闭动画，完美兼容滚动视图冲突处理。✨"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = <<-DESC
-                   DESC
+  spec.description  = "iOS 手势控制器，支持多方向交互式关闭动画，完美兼容滚动视图冲突处理。✨"
 
   spec.homepage     = "https://github.com/18840851520/PopGestureHandler"
   spec.screenshots  = "https://github.com/18840851520/PopGestureHandler/blob/main/PopGestureHandler/GIF/_SimulatorScreenRecordingiPhone1420250227at10._1.gif"
